@@ -1,0 +1,9 @@
+version: '3.9'
+services:
+  nwms-cronjob:
+    build: .
+    image: nwms-cronjob
+    container_name: nwms-cronjob
+    volumes:
+        - ../deployment/nwms/mongodb/data/db:/data/db
+        - /etc/localtime:/etc/localtime:ro

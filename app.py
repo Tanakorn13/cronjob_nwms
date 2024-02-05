@@ -9,6 +9,7 @@ models.init_mongoengine()
 
 
 def main():
+    print("Start Job")
     host_down_handler()
     service_down_handler()
     accessPoint_down_handler()
