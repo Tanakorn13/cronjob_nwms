@@ -1,0 +1,3 @@
+#crontab
+* * * * *  /venv/bin/python3  /app/app.py
+#end of line
